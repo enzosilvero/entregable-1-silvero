@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega N° 1: Enzo Silvero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="app.js"></script>
+    <h1>Entrega N° 1: Enzo Silvero</h1>
+    <img src="papota.jpg" alt="">
+    <h2>Historia para el simulador</h2>
+    <p class="historia">
+        El dúo de Catriel y Paco Amoroso acaban de anunciar un show sorpresa en Niceto Vega el 13 de diciembre. El evento será gratuito y exclusivo para mayores de 18 años.<br>
+        Además, las personas que tengan entre 18 y 30 años y sepan tocar la guitarra podrán participar en un sorteo para tocar una canción junto al grupo durante el show.</p>
+    <h3>Explicación del simulador</h3>
+    <p class="explicacion">
+        Para esta primera entrega desarrollé un simulador de registro para un evento musical ficticio utilizando los conceptos trabajados en clases. El programa solicita el nombre y la edad de las personas mediante <strong>prompt()</strong> .Si la edad ingresada es menor a 18 años, el sistema informará por medio de una <strong>alert()</strong> que no puede ingresar al local. Pero si la edad es mayor o igual  a 18 años, se agrega su nombre a lista de invitados utilizando un <strong>array (invitado.push(nombre)).</strong>
+        Además si la edad se encuentra entre los 18 y 30 años, se realiza una segunda consulta con <strong>confirm()</strong> para saber si la persona sabe tocar la guitarra. Si la persona confirma que si, se guarda su nombre en otro <strong>array(guitarrista.push(nombre))</strong>para que participe en un sorteo para poder tocar una canción con la banda en el evento del local.
+        El proceso se repite dentro de un ciclo con <strong>do y whille</strong> para poder registrar varias personas siempre y cuando el usuario lo desee. Y para finalizar, los resultados se muestran en pantalla con <strong>alert()</strong> y tambien en la consola aplicando <strong>console.log().</strong>
+        Además para poder lograr este simualdor investigué por mi cuenta en internet dos recursos nuevos que estan aplicadose en mi simulador para que funcionará la idea que tenía, que son los siguientes: <strong>parseInt()</strong> utilizado para convertir el string a un número entero y <strong>.Join()</strong> para mostrar los nombres guardados en los arrays de invitados y guitarristas.
+    </p>
+</body>
+</html>
